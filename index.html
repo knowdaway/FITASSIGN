@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Water resources of Australia</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="vega_lite_vis.js"></script>
+</head>
+<body>
+    <h1>Water resources of Australia</h1>
+    <h3>Select Regions:</h3>
+    <select id="regionSelect" multiple>
+      <option value="New South Wales">New South Wales</option>
+      <option value="Victoria">Victoria</option>
+      <option value="Queensland">Queensland</option>
+      <option value="South Australia">South Australia</option>
+      <option value="Western Australia">Western Australia</option>
+      <option value="Tasmania">Tasmania</option>
+      <option value="Northern Territory">Northern Territory</option>
+      <option value="Australian Capital Territory">Australian Capital Territory</option>
+    </select>
+    <h2>Different regions of Australia have different distribution of water consumption</h2>
+    <div id="bar-chart"></div> 
+    <h2>Variation of water use by different types in Australia over time</h2>
+    <div id="line-chart"></div> 
+    <h2>Fitting of industrial and domestic water use in different regions of Australia</h2>
+    <div id="scatter-plot"></div> 
+    <h2>The proportion of rainfall in different parts of Australia</h2>
+    <div id="pie-chart"></div> 
+    <h2>Map of rainfall in different parts of Australia</h2>
+    <div id="map"></div> 
+    <script>
+        createBarChart();
+        createLineChart();
+        createScatterPlot();
+        createPieChart();
+        createMap();
+ 
+
+
+    </script>
+
+</body>
+</html>

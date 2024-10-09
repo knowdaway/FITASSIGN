@@ -1,0 +1,79 @@
+[
+  {
+    "region": "New South Wales",
+    "domestic": 500,
+    "industrial": 600,
+    "irrigation": 700,
+    "year": 2016
+  },
+  {
+    "region": "New South Wales",
+    "domestic": 520,
+    "industrial": 630,
+    "irrigation": 710,
+    "year": 2017
+  },
+  {
+    "region": "New South Wales",
+    "domestic": 510,
+    "industrial": 620,
+    "irrigation": 690,
+    "year": 2018
+  },
+  {
+    "region": "New South Wales",
+    "domestic": 530,
+    "industrial": 650,
+    "irrigation": 720,
+    "year": 2019
+  },
+  {
+    "region": "New South Wales",
+    "domestic": 550,
+    "industrial": 660,
+    "irrigation": 740,
+    "year": 2020
+  },
+  {
+    "region": "Victoria",
+    "domestic": 400,
+    "industrial": 500,
+    "irrigation": 600,
+    "year": 2020
+  },
+  {
+    "region": "Queensland",
+    "domestic": 450,
+    "industrial": 550,
+    "irrigation": 650,
+    "year": 2020
+  },
+  {
+    "region": "South Australia",
+    "domestic": 350,
+    "industrial": 400,
+    "irrigation": 500,
+    "year": 2020
+  },
+  {
+    "region": "Western Australia",
+    "domestic": 300,
+    "industrial": 450,
+    "irrigation": 550,
+    "year": 2020
+  },
+  {
+    "region": "Tasmania",
+    "domestic": 250,
+    "industrial": 300,
+    "irrigation": 350,
+    "year": 2020
+  },
+  {
+    "region": "Northern Territory",
+    "domestic": 200,
+    "industrial": 250,
+    "irrigation": 300,
+    "year": 2020
+  }
+]

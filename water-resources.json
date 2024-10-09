@@ -1,0 +1,34 @@
+[
+  {
+    "state": "New South Wales",
+    "rainfall_mm": 538.4
+  },
+  {
+    "state": "Victoria",
+    "rainfall_mm": 549.9
+  },
+  {
+    "state": "Queensland",
+    "rainfall_mm": 749.7
+  },
+  {
+    "state": "South Australia",
+    "rainfall_mm": 174.7
+  },
+  {
+    "state": "Western Australia",
+    "rainfall_mm": 347.4
+  },
+  {
+    "state": "Tasmania",
+    "rainfall_mm": 1018.9
+  },
+  {
+    "state": "Northern Territory",
+    "rainfall_mm": 835.8
+  },
+  {
+    "state": "Australian Capital Territory",
+    "rainfall_mm": 532.2
+  }
+]
