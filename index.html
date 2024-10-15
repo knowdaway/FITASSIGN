@@ -12,33 +12,79 @@
 </head>
 <body>
     <h1>Water resources of Australia</h1>
-    <h3>Select Regions:</h3>
+    <h2>Status of water resources in Australia</h2>
+    <h5>From the tropical north to the temperate south, Australia covers many extreme weather conditions, 
+        including tropical cyclones, floods, heat waves and droughts. Australia is a vast country, 
+        stretching from the warm tropics near the equator to the cooler mid-latitudes. 
+        Sunshine, weather patterns, rainfall and terrain vary widely across the country. Northern Australia, close to the equator, 
+        enjoys a tropical climate with plenty of sunshine, seasonal rainfall and tropical cyclones. 
+        Australia has a cool continental climate in the south and a Mediterranean climate in the southwest with hot, 
+        dry summers. The East Coast has a temperate climate with no dry season and warm to hot summers. 
+        But overall, Australia is a very dry country, with very little rainfall across much of the Australian outback. 
+        The availability of water and the frequency of droughts therefore have a significant impact on agriculture, 
+        communities and the health of Australia's environment.
+        Therefore, it is very important to understand the water resources of Australia. 
+        The Australian Bureau of Statistics often makes a survey on the rainfall and water consumption of people or industry in Australia 
+        to make a unified plan for the water resources of the whole country.</h5>
     <select id="regionSelect" multiple>
-      <option value="New South Wales">New South Wales</option>
-      <option value="Victoria">Victoria</option>
-      <option value="Queensland">Queensland</option>
-      <option value="South Australia">South Australia</option>
-      <option value="Western Australia">Western Australia</option>
-      <option value="Tasmania">Tasmania</option>
-      <option value="Northern Territory">Northern Territory</option>
-      <option value="Australian Capital Territory">Australian Capital Territory</option>
-    </select>
-    <h2>Different regions of Australia have different distribution of water consumption</h2>
-    <div id="bar-chart"></div> 
+        <option value="New South Wales">New South Wales</option>
+        <option value="Victoria">Victoria</option>
+        <option value="Queensland">Queensland</option>
+        <option value="South Australia">South Australia</option>
+        <option value="Western Australia">Western Australia</option>
+        <option value="Tasmania">Tasmania</option>
+        <option value="Northern Territory">Northern Territory</option>
+        <option value="Australian Capital Territory">Australian Capital Territory</option>
+      </select>
+    <div class="twochart">
+        <div id="bar-chart"></div>
+        <div id="map"></div>
+    </div>
     <h2>Variation of water use by different types in Australia over time</h2>
+    <h5>In Southwest Australia in particular, considered a global drought hotspot, 
+        rainfall has declined by more than 20 percent since 1970, resulting in a decline in stream numbers of more than 80 percent, 
+        and our unique and fragile ecosystems are now facing serious challenges from climate change, natural disasters, 
+        land clearing and other intensive human activities. In 1977, the Australian government proposed the concept of water recycling for the first time, 
+        and included water reuse in key research, demonstration projects, and education programs. 
+        In 1990, Australia entered the first phase of water reuse development, 
+        which was driven by the development and implementation of wastewater treatment plant discharge standards. 
+        In 1991, Australian state governments began to establish environmental protection agencies and authorities, 
+        and set sewage discharge standards. As of 2002, there are more than 500 sewage treatment plants in Australia, 
+        which achieve partial or full recycling of municipal sewage. In the early 2000s, 
+        a decade-long drought prompted Australia to encourage households to collect and reuse "grey water" (bath sewage, etc.). 
+        In 2005, Australia established the National Water Commission (NWC), 
+        which developed the national Water quality Management Strategy guidelines for water recycling, 
+        achieving a historic shift to using reclaimed water and rainwater as an important part of urban water supply sources.
+        We know that rainfall and water use in Australia will also change over time,
+        so the water use in Australia can be roughly analyzed in the current year.</h5>
     <div id="line-chart"></div> 
     <h2>Fitting of industrial and domestic water use in different regions of Australia</h2>
+    <h5>Australia's water resources are owned by the State and the day-to-day management of water resources is undertaken by the Department of Agriculture, 
+        Fisheries and Forestry and the Department of the Environment. 
+        The Federal Water Resources Management Board is responsible for national water research and planning, 
+        coordinating the development and use of water resources, and providing policy guidance to ensure environmental water safety. 
+        The state government implements ownership management of water resources. 
+        According to the total water resources of each state determined by the federal government, 
+        the state users are issued water drawing licenses for a period of 5-15 years, and the water drawing behavior is regulated through legislation. 
+        Local governments have water pipe bureaus, the main task is to implement the water laws and regulations issued by the state government, 
+        responsible for water supply, drainage and water environment protection.In Australia, water resources are very limited, 
+        so different types of water must be reasonably distributed, otherwise there will be a situation of short supply. 
+        Therefore, the relationship between different types of water use can be obtained by using the fitting of the dot plot. 
+        In the selection of targets, we focus on the two large proportions of residents' daily water use and industrial water use.</h5>
     <div id="scatter-plot"></div> 
     <h2>The proportion of rainfall in different parts of Australia</h2>
-    <div id="pie-chart"></div> 
-    <h2>Map of rainfall in different parts of Australia</h2>
-    <div id="map"></div> 
+    <h5>In terms of rainfall, as mentioned earlier, the rainfall in Australia is a very unstable situation, 
+        and different parts of Australia often have different weather and even extreme conditions sometimes. 
+        So a chart should be made of rainfall in different areas to determine which area is currently receiving the most rainfall and by how much.</h5>
+    <div id="pie-chart"></div>
+    
     <script>
         createBarChart();
+        createMap();
         createLineChart();
         createScatterPlot();
         createPieChart();
-        createMap();
+
  
 
 

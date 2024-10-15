@@ -16,11 +16,23 @@ h2{
     margin-top: 40px;
     margin-bottom: 20px;
 }
-#bar-chart{
+h5{
+    font-style:normal;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.twochart{
+    display: flex;
+    justify-content: center;
+}
+#regionSelect{
     display: flex;
     justify-content: center;
     margin: auto;
-    max-width: 800px;
+    max-width: 500px;
     width: 100%;
     height:100%;
     padding:0;
@@ -44,15 +56,6 @@ h2{
     padding:0;
 }
 #pie-chart{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    max-width: 800px;
-    width: 100%;
-    height:100%;
-    padding:0;
-}
-#map{
     display: flex;
     justify-content: center;
     margin: auto;

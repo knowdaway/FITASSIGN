@@ -1,79 +1,37 @@
 [
   {
-    "region": "New South Wales",
-    "domestic": 500,
-    "industrial": 600,
-    "irrigation": 700,
+    "region": "Australian",
+    "domestic": 1726605.7154,
+    "industrial": 82736881.968,
+    "irrigation": 56029771.9557,
     "year": 2016
   },
   {
-    "region": "New South Wales",
-    "domestic": 520,
-    "industrial": 630,
-    "irrigation": 710,
+    "region": "Australian",
+    "domestic": 1802989.9736,
+    "industrial": 83766082.2331,
+    "irrigation": 55400302.2851,
     "year": 2017
   },
   {
-    "region": "New South Wales",
-    "domestic": 510,
-    "industrial": 620,
-    "irrigation": 690,
+    "region": "Australian",
+    "domestic": 1817364.8478,
+    "industrial": 76857936.4793,
+    "irrigation": 53117963.3471,
     "year": 2018
   },
   {
-    "region": "New South Wales",
-    "domestic": 530,
-    "industrial": 650,
-    "irrigation": 720,
+    "region": "Australian",
+    "domestic": 1816678.9874,
+    "industrial": 76509604.7662,
+    "irrigation": 56400418.4799,
     "year": 2019
   },
   {
-    "region": "New South Wales",
-    "domestic": 550,
-    "industrial": 660,
-    "irrigation": 740,
-    "year": 2020
-  },
-  {
-    "region": "Victoria",
-    "domestic": 400,
-    "industrial": 500,
-    "irrigation": 600,
-    "year": 2020
-  },
-  {
-    "region": "Queensland",
-    "domestic": 450,
-    "industrial": 550,
-    "irrigation": 650,
-    "year": 2020
-  },
-  {
-    "region": "South Australia",
-    "domestic": 350,
-    "industrial": 400,
-    "irrigation": 500,
-    "year": 2020
-  },
-  {
-    "region": "Western Australia",
-    "domestic": 300,
-    "industrial": 450,
-    "irrigation": 550,
-    "year": 2020
-  },
-  {
-    "region": "Tasmania",
-    "domestic": 250,
-    "industrial": 300,
-    "irrigation": 350,
-    "year": 2020
-  },
-  {
-    "region": "Northern Territory",
-    "domestic": 200,
-    "industrial": 250,
-    "irrigation": 300,
+    "region": "Australian",
+    "domestic": 1809099.4412,
+    "industrial": 76474489.893,
+    "irrigation": 50997645.3531,
     "year": 2020
   }
 ]
